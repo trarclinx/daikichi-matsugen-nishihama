@@ -16,3 +16,11 @@ footer{background:#03152f;color:#fff;padding:44px 6vw;display:flex;align-items:c
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.button{transition:none}}
 @media(max-width:900px){.hero{padding-top:70px}.hero-grid{min-height:auto;grid-template-columns:1fr;padding:58px 22px 50px;gap:55px}.hero-copy{padding:0}.hero-shade{background:linear-gradient(180deg,rgba(2,16,37,.97),rgba(3,24,53,.9))}.hero h1{font-size:clamp(48px,12vw,76px)}.hero-product{width:min(620px,92%);margin:0 auto}.hero-product figcaption{flex-direction:column;align-items:flex-start}.hero-burst{right:-22px}.gold-proof{grid-template-columns:1fr;padding:76px 22px;gap:42px}.gold-proof-gallery img{height:320px}}
 @media(max-width:560px){.hero-alert{font-size:13px}.hero h1{font-size:46px}.hero-lead{font-size:16px}.hero-actions{flex-direction:column}.hero .button.primary,.hero-results-button{width:100%;align-items:center}.hero-product{width:94%}.hero-burst{width:102px;height:102px;right:-13px;top:-30px;border-width:5px}.hero-burst strong{font-size:29px}.hero-ticker{justify-content:flex-start;padding:0 18px}.hero-ticker span:nth-of-type(n+4),.hero-ticker i:nth-of-type(n+4){display:none}.gold-proof-gallery{grid-template-columns:1fr}.gold-proof-gallery figure:nth-child(2){margin-top:0}.gold-proof-gallery img{height:auto;aspect-ratio:1.15/1}}
+
+/* First-view store identity */
+.hero-grid{padding-top:48px;padding-bottom:52px}
+.hero-store-name{display:flex;flex-direction:column;align-items:flex-start;margin:0 0 24px;padding:0 0 17px;border-bottom:3px solid #e8c860;line-height:1;text-shadow:0 5px 22px rgba(0,0,0,.38)}
+.hero-store-name span{font-family:var(--serif);font-size:clamp(38px,4.3vw,66px);font-weight:900;letter-spacing:.05em}
+.hero-store-name strong{margin-top:10px;color:#f0d16b;font-size:clamp(19px,2vw,29px);letter-spacing:.12em}
+@media(max-width:900px){.hero-grid{padding-top:40px}.hero-store-name{margin-bottom:20px}.hero-store-name span{font-size:clamp(36px,10vw,58px)}.hero-store-name strong{font-size:clamp(19px,5.5vw,27px)}}
+@media(max-width:560px){.hero-store-name span{font-size:40px}.hero-store-name strong{font-size:21px;letter-spacing:.08em}}
